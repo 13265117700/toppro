@@ -1,0 +1,80 @@
+.page-footer{
+  background: #1D1A33;
+  height:322px;
+}
+.footer-container{
+  width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-around;
+}
+.footer-container .footer-logo{
+  width: 130px;
+  height: 50px;
+}
+.footer-container .footer-subtitle{
+  color: #8A8B91;
+  height: 50px;
+  line-height: 60px;
+  padding-bottom: 40px;
+  font-size:15px;
+}
+.footer-about{
+  width: 225px;
+  position: relative;
+}
+.footer-about::after{
+  content: '';
+  width: 33px;
+  height: 4px;
+  background: #2B2744;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}
+.footer-about .footer-item-description{
+  color: #FFFFFF;
+  line-height:28px;
+  font-size:14px;
+  font-family: serif;
+}
+.footer-nav{
+  position: relative;
+}
+.footer-nav::after{
+  content: '';
+  width: 14px;
+  height: 4px;
+  background: #2B2744;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}
+.footer-nav .nav-list{
+  display: flex;
+  flex-direction:column;
+}
+.footer-contact{
+  position: relative;
+}
+.footer-contact::after{
+  content: '';
+  width: 33px;
+  height: 4px;
+  background: #2B2744;
+  position: absolute;
+  top: 55px;
+  left: 0;
+}
+.footer-contact .footer-contact-list{
+  display: flex;
+  flex-direction:column;
+}
+.footer-container a{
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: serif;
+  line-height: 28px;
+}
