@@ -1,6 +1,7 @@
 .page-mainer{
   width: 1080px;
   margin: 0 auto;
+  flex: 1;
 }
 .chinese{
   font-size: 42px;
