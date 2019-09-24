@@ -28,10 +28,29 @@ html,body{
   padding-right: 30px;
   cursor: pointer;
 }
+
+.header-nav{
+  display: flex;
+}
 .header-nav a{
   color: #fff;
   text-decoration: none;
   padding: 0 25px;
+  height: 75px;
+  line-height: 75px;
+  position: relative;
+  font-family: monospace;
+}
+.header-nav a:hover{
+  color: #58A673;
+}
+.header-nav a:hover::after{
+  content: '';
+  width: 100%;
+  border-bottom: 2px solid #58A673;
+  bottom: 0;
+  left: 0;
+  position: absolute;
 }
 .header-join{
   position: absolute;
@@ -45,16 +64,13 @@ html,body{
   text-align: center;
   cursor: pointer;
   margin-left: 20px;
-  font-weight: bold;
-  font-family: serif;
-}
-.header-join-experts{
+  font-family: monospace;
   color: #58A673;
   border: 1px solid;
   border-radius: 5px;
 }
-.header-join-employers{
+.header-join div:hover{
   color: #fff;
-  background-color: #58A673;
-  border-radius: 5px;
+  background: #58A673;
+  border:1px solid #58A673;
 }

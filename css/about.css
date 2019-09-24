@@ -1,0 +1,58 @@
+.page-mainer{
+  width: 1080px;
+  margin: 0 auto;
+}
+.chinese{
+  font-size: 42px;
+}
+.english{
+  font-size:18px;
+  color: #999999;
+  padding-left: 22px;
+}
+
+/* .about-section */
+.about-section{
+  padding: 110px 0;
+}
+.about-section .about-text{
+  font-size: 18px;
+  line-height: 36px;
+  color: #3F464B;
+  padding-top: 70px;
+  letter-spacing: 1px;
+  font-family: fantasy;
+}
+
+
+/* .believe-section */
+.believe-section{
+  padding-bottom: 60px;
+}
+.believe-section .believe-list{
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.believe-section .believe-item{
+  display: flex;
+  width: 450px;
+  line-height:30px;
+  padding-bottom: 50px;
+}
+.believe-section .believe-item-tag{
+  width: 55px;
+  height: 55px;
+  background: #62BD82;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 55px;
+  font-size: 28px;
+}
+.believe-section .believe-item-text{
+  width: 360px;
+  padding-left: 20px;
+  font-family: fantasy;
+}

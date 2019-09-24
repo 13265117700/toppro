@@ -37,7 +37,7 @@ html,body{
   font-family: serif;
 }
 
-.login-iofo{
+.login-info{
   width:360px;
   height:345px;
   background:rgba(255,255,255,1);
@@ -49,14 +49,14 @@ html,body{
 
 
 
-.login-iofo-id{
+.login-info-phone{
   margin: 25px auto 20px;
   width: 310px;
   height: 40px;
   background: rgba(252,252,252,1);
   border: 1px solid rgba(228, 228, 228, 1);
 }
-.login-iofo-id input{
+.login-info-phone input{
   height: 40px;
   width: 230px;
   border: none;
@@ -65,7 +65,7 @@ html,body{
   font-size: 14px;
   color:rgba(169,169,169,1);
 }
-.login-iofo-id span{
+.login-info-phone span{
   width: 60px;
   height: 12px;
   font-size: 12px;
@@ -74,14 +74,14 @@ html,body{
 
 
 
-.login-iofo-password{
+.login-info-password{
   margin: 0px auto;
   width: 310px;
   height: 40px;
   background: rgba(252,252,252,1);
   border: 1px solid rgba(228, 228, 228, 1);
 }
-.login-iofo-password input{
+.login-info-password input{
   height: 40px;
   width: 230px;
   border: none;
@@ -90,7 +90,7 @@ html,body{
   font-size: 14px;
   color:rgba(169,169,169,1);
 }
-.login-iofo-password span{
+.login-info-password span{
   width: 60px;
   height: 12px;
   font-size: 12px;
@@ -99,25 +99,25 @@ html,body{
 
 
 
-.login-iofo-alter{
+.login-info-alter{
   padding: 76px 0 25px;
   font-size:14px;
 }
-.login-iofo-alter input{
+.login-info-alter input{
   width:15px;
   height:15px;
   vertical-align: middle;
 }
-.login-iofo-alter span{
+.login-info-alter span{
   color: #999999;
 }
-.login-iofo-alter a{
+.login-info-alter a{
   text-decoration: none;
   color: #3F464B;
   padding-left: 160px;
 }
 
-.login-iofo-submit{
+.login-info-submit{
   width: 310px;
   height: 45px;
   margin: 0 auto;

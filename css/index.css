@@ -60,7 +60,6 @@
   width: 850px;
   height: 89px;
   margin: 10px auto 0;
-  border: 1px dashed #B1B1B5;
 }
 
 /* .resource-section */
@@ -77,9 +76,6 @@
 .resource-item{
   display: flex;
   flex-direction:column;
-}
-.resource-item-img{
-  border: 1px dashed #B1B1B5;
 }
 .resource-item-tag{
   font-size: 18px;
@@ -144,7 +140,13 @@
   text-align: left;
   position: relative;
 }
-.talent-list .talent-item:hover::after{
+.talent-list .talent-item .talent-item-tag{
+  width: 313px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+}
+.talent-list .talent-item .talent-item-tag:hover::after{
   content: '请他工作';
   width: 313px;
   height: 50px;
@@ -192,11 +194,15 @@
   font-size: 12px;
   padding: 37px 0 0 22px;
 }
+.talent-list .talent-item-link:hover{
+  color: #62BD82;
+  font-weight: 600;
+
+}
 .talent-list .talent-item-logo{
   width: 120px;
   height: 60px;
   margin: 0 auto;
-  border: 1px dashed #B1B1B5;
   cursor: pointer;
 }
 
@@ -213,10 +219,10 @@
   justify-content: space-between;
   padding-bottom: 22px;
 }
-.use-section .use-tag{
+.use-section .use-item-tag{
   width: 64px;
 }
-.use-section .use-tag .use-tag-number{
+.use-section .use-item-tag .use-item-tag-number{
   width: 64px;
   height: 64px;
   background: #62BD82;
@@ -225,19 +231,19 @@
   font-size: 32px;
   color: #fff;
 }
-.use-section .use-tag .use-tag-arrows{
+.use-section .use-item-tag .use-item-tag-arrows{
   width: 33px;
   height: 164px;
   margin: 0 auto;
   position: relative;
 }
-.use-section .use-tag .use-tag-arrows i:nth-child(1){
+.use-section .use-item-tag .use-item-tag-arrows i:nth-child(1){
   position: absolute;
   width: 1px;
   height: 164px;
   background: #62BD82;
 }
-.use-section .use-tag .use-tag-arrows i:nth-child(2){
+.use-section .use-item-tag .use-item-tag-arrows i:nth-child(2){
   position: absolute;
   width: 1px;
   height: 35px;
@@ -246,7 +252,7 @@
   bottom: -4px;
   transform: rotate(-40deg);
 }
-.use-section .use-tag .use-tag-arrows i:nth-child(3){
+.use-section .use-item-tag .use-item-tag-arrows i:nth-child(3){
   position: absolute;
   width: 1px;
   height: 35px;
@@ -255,18 +261,18 @@
   bottom: -4px;
   transform: rotate(40deg);
 }
-.use-section .use-text{
+.use-section .use-item-text{
   width: 630px;
   display: flex;
   flex-direction: column;
   text-align: left;
 }
-.use-section .use-text .use-text-title{
+.use-section .use-item-text .use-item-text-title{
   font-size: 28px;
   line-height: 60px;
   letter-spacing: 1px;
 }
-.use-section .use-text .use-text-description{
+.use-section .use-item-text .use-item-text-description{
   width: 475px;
   height: 120px;
   font-size: 16px;
@@ -274,7 +280,7 @@
   letter-spacing: 1px;
   overflow: hidden;
 }
-.use-section .use-img{
+.use-section .use-item-img{
   width: 310px;
   height: 200px;
 }
@@ -356,6 +362,9 @@
 .story-section{
   height: 620px;
   background: rgba(61,62,72,1);
+}
+.story-section .sub-title{
+  color: #fff;
 }
 .story-section .story-list{
   display: flex;
